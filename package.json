@@ -1,0 +1,22 @@
+{
+  "name": "ui-learning-test-suites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "echo \"Error: no main specified\" && exit 1",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakthivel-tw/ui-learning-test-suites.git"
+  },
+  "author": "Sakthivel Viswanathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakthivel-tw/ui-learning-test-suites/issues"
+  },
+  "homepage": "https://github.com/sakthivel-tw/ui-learning-test-suites#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
