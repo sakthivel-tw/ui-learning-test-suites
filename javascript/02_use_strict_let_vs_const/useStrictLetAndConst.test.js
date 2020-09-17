@@ -1,6 +1,7 @@
 describe("use strict, let & const", () => {
   test("throw errors when using use strict", () => {
     // ======================================================= //
+    // Hint: Don't allow foo to declare global variables
 
     expect(() => {
       function foo() {
@@ -49,6 +50,7 @@ describe("use strict, let & const", () => {
 
     // ======================================================= //
     // Make the below function throw an exception
+    // Hint: baz should have a return statement
 
     expect(() => {
       function baz() {
