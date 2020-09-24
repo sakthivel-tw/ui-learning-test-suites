@@ -1,4 +1,7 @@
 describe("primitive and structural datatypes", () => {
+  // ======================================================= //
+  // TYPEOF
+  // ======================================================= //
   test("typeof", () => {
     var foo = "String";
     expect(typeof foo).toBe("string");
@@ -29,6 +32,9 @@ describe("primitive and structural datatypes", () => {
     expect(bar === boo).toBe(false);
   });
 
+  // ======================================================= //
+  // UNDEFINED & NULL
+  // ======================================================= //
   test("undefined & null", () => {
     var foo;
     var bar = null;
