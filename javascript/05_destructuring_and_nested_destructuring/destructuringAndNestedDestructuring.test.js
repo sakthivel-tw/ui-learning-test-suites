@@ -132,4 +132,21 @@ describe("destructuring and nested destructuring for arrays and objects", () => 
     expect(age).toEqual();
     expect(address).toEqual();
   });
+
+  test("nested destructuring in objects with different name", () => {
+    const order = {
+      item: "Shoe",
+      customer: {
+        firstName: "John",
+        age: 42,
+      },
+    };
+
+    let {
+      customer: { firstName: name, age, address = "1st street" },
+    } = order;
+    expect(name).toEqual();
+    expect(age).toEqual();
+    expect(address).toEqual();
+  });
 });
